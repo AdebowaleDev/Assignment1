@@ -1,0 +1,115 @@
+   *{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+
+}
+@media screen and (max-width: 375px){
+    .text-col{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px){
+    .text-form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1440){
+    .text-col, .text-form{
+        width: 100%;
+    }
+}
+body{
+    font-family: 'Poppins';
+    color: white;
+    font-size: larger;
+}
+h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 1.58;
+    letter-spacing: -.02em;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+p{
+    font-size: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.para{
+    text-align: center;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 100;
+    color:rgb(196, 190, 190)
+}
+a{
+    color: hsl(0, 100%, 74%)
+}
+/* styling the main */
+main{
+    display: flex;
+    background-color: hsl(0, 100%, 74%);
+    color: white; 
+    align-items: center;
+    padding: 90px 150px;
+    background-image: url(images/bg-intro-desktop.png);
+}
+.text-col{
+    flex-basis: 50%;
+}
+.text-form{
+    flex-basis: 50%;
+}
+/* The form styling */
+form{
+    border: 40px solid white;
+    border-radius: 5px;
+    color: black;
+    font-family: 'poppins';
+    background-color: white;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+
+form input{
+    width: 100%;
+    margin: 8px 0px;
+    padding: 8px 0px;
+    border: 1px solid rgb(223, 214, 214);
+    border-radius: 5px;  
+}
+/* The button styling */
+form button{
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    border: 10px solid hsl(154, 59%, 51%);
+}
+form button:hover{
+    background-color:hsl(154, 59%, 51%);
+}
+
+button{
+    width: 100%;
+    background-color: hsl(240, 100%, 26%);
+    color: white;
+    padding: 8px ;
+    border-radius: 5px;
+    margin: 8px 0px ;
+    border: 10px solid hsl(240, 100%, 26%);
+
+}
+/* form-control styling */
+.form-control {
+    border-radius: 15px;
+    background-color: white;
+    width: 100%;
+}
